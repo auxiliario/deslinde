@@ -7,7 +7,7 @@ export function StructuredData({ tenant }: { tenant: TenantConfig }) {
     "@id": tenant.website,
     name: tenant.fullName,
     description:
-      "Servicios profesionales de agrimensura, deslinde, subdivisión, saneamiento catastral y levantamiento topográfico en el Este de República Dominicana.",
+      "Servicios profesionales de agrimensura, deslinde, subdivisión, saneamiento catastral y levantamiento topográfico en toda la República Dominicana.",
     url: tenant.website,
     telephone: tenant.phone,
     email: tenant.email,

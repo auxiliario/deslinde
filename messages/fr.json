@@ -1,9 +1,9 @@
 {
   "Meta": {
     "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
-    "description": "Operaciones Topográficas y Mensuras — Services professionnels d'arpentage à Higüey, Bávaro, Punta Cana et l'Est de la République Dominicaine. CODIA 34525.",
+    "description": "Operaciones Topográficas y Mensuras — Services professionnels d'arpentage dans toute la République Dominicaine. Santo Domingo, Punta Cana, Bávaro, Santiago et plus. CODIA 34525.",
     "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
-    "ogDescription": "Services d'arpentage, bornage, lotissement et cadastre dans l'Est de la République Dominicaine."
+    "ogDescription": "Services d'arpentage, bornage, lotissement et cadastre dans toute la République Dominicaine."
   },
   "Nav": {
     "services": "Services",
@@ -46,7 +46,7 @@
   },
   "WhyChoose": {
     "heading": "Pourquoi choisir OTM ?",
-    "p1": "Avec plus d'une décennie d'expérience dans l'Est de la République Dominicaine, je connais chaque recoin de cette région — des parcelles en bord de mer à Bávaro aux domaines ruraux de Higüey. Cette connaissance approfondie du terrain et des registres cadastraux locaux se traduit par des processus plus rapides et des résultats plus précis pour vous.",
+    "p1": "Avec plus d'une décennie d'expérience dans toute la République Dominicaine, nous connaissons chaque recoin du pays — des parcelles en bord de mer à Punta Cana aux projets urbains de Santo Domingo et aux domaines ruraux de l'intérieur. Cette connaissance approfondie du terrain et des registres cadastraux se traduit par des processus plus rapides et des résultats plus précis pour vous.",
     "p2": "Notre formation de géomètres, avocats, experts immobiliers et conseillers immobiliers nous permet de voir votre projet sous tous les angles. Nous ne nous contentons pas de mesurer votre terrain — nous comprenons les implications légales de chaque limite, pouvons vous représenter devant le Tribunal Foncier, et savons exactement comment chaque décision technique impacte la valeur de votre propriété.",
     "p3": "Chaque terrain raconte une histoire. Mon engagement est de la déchiffrer avec précision, de la protéger avec un soutien juridique, et de vous offrir la tranquillité d'esprit que votre propriété est entre les meilleures mains."
   },
@@ -89,19 +89,25 @@
     "item3_text": "En tant qu'étranger achetant à Punta Cana, j'avais besoin de quelqu'un de confiance. Daniel m'a guidé tout au long du processus avec un professionnalisme total."
   },
   "Areas": {
-    "heading": "Zones de Couverture",
-    "subheading": "Nous opérons dans tout l'Est de la République Dominicaine, avec une présence principale dans les zones suivantes",
-    "higuey": "Higüey",
-    "bavaro": "Bávaro",
+    "heading": "Couverture Nationale",
+    "subheading": "Nous opérons dans toute la République Dominicaine, avec une présence dans les principales villes et pôles d'investissement du pays",
+    "santoDomingo": "Santo Domingo",
     "puntaCana": "Punta Cana",
-    "veron": "Verón",
-    "bayahibe": "Bayahibe",
-    "laRomana": "La Romana"
+    "bavaro": "Bávaro",
+    "capCana": "Cap Cana",
+    "santiago": "Santiago",
+    "laRomana": "La Romana",
+    "samana": "Samaná",
+    "puertoplata": "Puerto Plata",
+    "higuey": "Higüey",
+    "jarabacoa": "Jarabacoa",
+    "lasTerrenas": "Las Terrenas",
+    "cabarete": "Cabarete"
   },
   "About": {
     "heading": "À propos d'Operaciones Topográficas y Mensuras",
     "p1": "J'ai fondé OTM avec une vision claire : offrir des services d'arpentage combinant précision technique et solidité juridique. Après des années d'exercice en tant que géomètre et avocat, j'ai compris que les propriétaires avaient besoin d'un professionnel qui non seulement mesure leur terrain, mais protège aussi leur investissement du point de vue juridique.",
-    "p2": "Aujourd'hui, notre équipe sert des propriétaires, promoteurs et investisseurs dans tout l'Est du pays. Chaque projet que nous acceptons reçoit le même dévouement — car derrière chaque parcelle se trouve une famille, un rêve ou une entreprise qui mérite la plus grande sécurité sur sa propriété.",
+    "p2": "Aujourd'hui, notre équipe sert des propriétaires, promoteurs et investisseurs dans tout le pays. Chaque projet que nous acceptons reçoit le même dévouement — car derrière chaque parcelle se trouve une famille, un rêve ou une entreprise qui mérite la plus grande sécurité sur sa propriété.",
     "teamHeading": "Notre Équipe",
     "team1_name": "Daniel Omar Martínez Soler",
     "team1_role": "CEO",

@@ -130,7 +130,7 @@ INSERT INTO agrimensores (
   'https://www.instagram.com/agrim.danielmartinez/',
   'https://wa.me/18292829999',
   ARRAY['codia', 'abogado', 'master', 'tasador'],
-  ARRAY['higuey', 'bavaro', 'puntaCana', 'veron', 'bayahibe', 'laRomana']
+  ARRAY['santoDomingo', 'puntaCana', 'bavaro', 'capCana', 'santiago', 'laRomana', 'samana', 'puertoplata', 'higuey', 'jarabacoa', 'lasTerrenas', 'cabarete']
 );
 
 -- Get the agrimensor ID for FK references

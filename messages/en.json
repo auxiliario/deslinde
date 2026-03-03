@@ -1,9 +1,9 @@
 {
   "Meta": {
     "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
-    "description": "Operaciones Topográficas y Mensuras — Professional land surveying services in Higüey, Bávaro, Punta Cana, and the East of the Dominican Republic. CODIA 34525.",
+    "description": "Operaciones Topográficas y Mensuras — Professional land surveying services across the Dominican Republic. Santo Domingo, Punta Cana, Bávaro, Santiago and more. CODIA 34525.",
     "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
-    "ogDescription": "Land surveying, demarcation, subdivision, and cadastral services in the Eastern Dominican Republic."
+    "ogDescription": "Land surveying, demarcation, subdivision, and cadastral services across the Dominican Republic."
   },
   "Nav": {
     "services": "Services",
@@ -46,7 +46,7 @@
   },
   "WhyChoose": {
     "heading": "Why Choose OTM?",
-    "p1": "With over a decade of experience in the East of the Dominican Republic, I know every corner of this region — from the beachfront parcels in Bávaro to the rural estates of Higüey. This deep familiarity with the terrain and local cadastral records translates into faster processes and more precise results for you.",
+    "p1": "With over a decade of experience across the Dominican Republic, we know every corner of the country — from the beachfront parcels in Punta Cana to the urban projects of Santo Domingo and the rural estates of the interior. This deep familiarity with the terrain and cadastral records translates into faster processes and more precise results for you.",
     "p2": "Our background as surveyors, attorneys, appraisers, and real estate advisors allows us to see your project from every angle. We don't just measure your land — we understand the legal implications of every boundary, can represent you before the Land Court, and know exactly how every technical decision impacts your property's value.",
     "p3": "Every piece of land tells a story. My commitment is to decipher it with precision, protect it with legal backing, and give you the peace of mind that your property is in the best hands."
   },
@@ -89,19 +89,25 @@
     "item3_text": "As a foreigner buying in Punta Cana, I needed someone I could trust. Daniel guided me through the entire process with total professionalism."
   },
   "Areas": {
-    "heading": "Coverage Areas",
-    "subheading": "We operate throughout the East of the Dominican Republic, with primary presence in the following areas",
-    "higuey": "Higüey",
-    "bavaro": "Bávaro",
+    "heading": "Nationwide Coverage",
+    "subheading": "We operate across the entire Dominican Republic, with presence in the country's major cities and investment hubs",
+    "santoDomingo": "Santo Domingo",
     "puntaCana": "Punta Cana",
-    "veron": "Verón",
-    "bayahibe": "Bayahibe",
-    "laRomana": "La Romana"
+    "bavaro": "Bávaro",
+    "capCana": "Cap Cana",
+    "santiago": "Santiago",
+    "laRomana": "La Romana",
+    "samana": "Samaná",
+    "puertoplata": "Puerto Plata",
+    "higuey": "Higüey",
+    "jarabacoa": "Jarabacoa",
+    "lasTerrenas": "Las Terrenas",
+    "cabarete": "Cabarete"
   },
   "About": {
     "heading": "About Operaciones Topográficas y Mensuras",
-    "p1": "I founded OTM with a clear vision: to offer surveying services that combine technical precision with legal strength. After years practicing as both surveyor and attorney, I understood that property owners needed a professional who not only measured their land but also protected their investment from a legal standpoint.",
-    "p2": "Today, our team serves property owners, developers, and investors across the entire East of the country. Every project we accept receives the same dedication — because behind every parcel is a family, a dream, or a business that deserves the utmost security over their property.",
+    "p1": "We founded OTM with a clear vision: to offer surveying services that combine technical precision with legal strength. After years practicing as surveyors and attorneys, we understood that property owners needed professionals who not only measured their land but also protected their investment from a legal standpoint.",
+    "p2": "Today, our team serves property owners, developers, and investors across the entire country. Every project we accept receives the same dedication — because behind every parcel is a family, a dream, or a business that deserves the utmost security over their property.",
     "teamHeading": "Our Team",
     "team1_name": "Daniel Omar Martínez Soler",
     "team1_role": "CEO",

@@ -1,9 +1,9 @@
 {
   "Meta": {
     "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
-    "description": "Operaciones Topográficas y Mensuras — Servicios de agrimensura profesional en Higüey, Bávaro, Punta Cana y todo el Este de República Dominicana. CODIA 34525.",
+    "description": "Operaciones Topográficas y Mensuras — Servicios de agrimensura profesional en toda la República Dominicana. Santo Domingo, Punta Cana, Bávaro, Santiago y más. CODIA 34525.",
     "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
-    "ogDescription": "Servicios de agrimensura, deslinde, subdivisión y saneamiento catastral en el Este de República Dominicana."
+    "ogDescription": "Servicios de agrimensura, deslinde, subdivisión y saneamiento catastral en toda la República Dominicana."
   },
   "Nav": {
     "services": "Servicios",
@@ -46,7 +46,7 @@
   },
   "WhyChoose": {
     "heading": "¿Por qué elegir a OTM?",
-    "p1": "Con más de una década de experiencia en el Este de República Dominicana, conozco cada rincón de esta zona — desde las parcelas frente al mar en Bávaro hasta las fincas rurales de Higüey. Esta familiaridad profunda con el terreno y con los registros catastrales locales se traduce en procesos más rápidos y resultados más precisos para ti.",
+    "p1": "Con más de una década de experiencia en toda la República Dominicana, conocemos cada rincón del país — desde las parcelas frente al mar en Punta Cana hasta los proyectos urbanos de Santo Domingo y las fincas rurales del interior. Esta familiaridad profunda con el terreno y con los registros catastrales se traduce en procesos más rápidos y resultados más precisos para ti.",
     "p2": "Nuestra formación como agrimensores, abogados, tasadores y asesores inmobiliarios nos permite ver tu proyecto desde todos los ángulos. No solo medimos tu terreno — entendemos las implicaciones legales de cada colindancia, podemos representarte ante el Tribunal de Tierras, y sabemos exactamente cómo cada decisión técnica impacta el valor de tu propiedad.",
     "p3": "Cada terreno cuenta una historia. Mi compromiso es descifrarla con precisión, protegerla con respaldo legal, y entregarte la tranquilidad de saber que tu propiedad está en las mejores manos."
   },
@@ -89,19 +89,25 @@
     "item3_text": "Como extranjero comprando en Punta Cana, necesitaba alguien de confianza. Daniel me guió en todo el proceso con total profesionalismo."
   },
   "Areas": {
-    "heading": "Zonas de Cobertura",
-    "subheading": "Operamos en todo el Este de República Dominicana, con presencia principal en las siguientes zonas",
-    "higuey": "Higüey",
-    "bavaro": "Bávaro",
+    "heading": "Cobertura Nacional",
+    "subheading": "Operamos en toda la República Dominicana, con presencia en las principales ciudades y polos de inversión del país",
+    "santoDomingo": "Santo Domingo",
     "puntaCana": "Punta Cana",
-    "veron": "Verón",
-    "bayahibe": "Bayahibe",
-    "laRomana": "La Romana"
+    "bavaro": "Bávaro",
+    "capCana": "Cap Cana",
+    "santiago": "Santiago",
+    "laRomana": "La Romana",
+    "samana": "Samaná",
+    "puertoplata": "Puerto Plata",
+    "higuey": "Higüey",
+    "jarabacoa": "Jarabacoa",
+    "lasTerrenas": "Las Terrenas",
+    "cabarete": "Cabarete"
   },
   "About": {
     "heading": "Sobre Operaciones Topográficas y Mensuras",
     "p1": "Fundé OTM con una visión clara: ofrecer servicios de agrimensura que combinen precisión técnica con solidez legal. Después de años ejerciendo como agrimensor y abogado, entendí que los propietarios necesitaban un profesional que no solo midiera su terreno, sino que también protegiera su inversión desde el punto de vista jurídico.",
-    "p2": "Hoy, nuestro equipo atiende a propietarios, desarrolladores e inversores en todo el Este del país. Cada proyecto que aceptamos recibe la misma dedicación — porque detrás de cada parcela hay una familia, un sueño o un negocio que merece la máxima seguridad sobre su propiedad.",
+    "p2": "Hoy, nuestro equipo atiende a propietarios, desarrolladores e inversores en todo el país. Cada proyecto que aceptamos recibe la misma dedicación — porque detrás de cada parcela hay una familia, un sueño o un negocio que merece la máxima seguridad sobre su propiedad.",
     "teamHeading": "Nuestro Equipo",
     "team1_name": "Daniel Omar Martínez Soler",
     "team1_role": "CEO",

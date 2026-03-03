@@ -49,5 +49,5 @@ export const otmTenant: TenantConfig = {
     { id: "team4" },
     { id: "team5" },
   ],
-  areas: ["higuey", "bavaro", "puntaCana", "veron", "bayahibe", "laRomana"],
+  areas: ["santoDomingo", "puntaCana", "bavaro", "capCana", "santiago", "laRomana", "samana", "puertoplata", "higuey", "jarabacoa", "lasTerrenas", "cabarete"],
 };
