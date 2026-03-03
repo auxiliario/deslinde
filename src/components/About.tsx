@@ -48,12 +48,14 @@ export async function About({ tenant }: { tenant: TenantConfig }) {
                 <h4 className="mb-1 text-center font-heading text-sm font-bold text-navy">
                   {t(`${member.id}_name`)}
                 </h4>
-                <p className="mb-2 text-center text-xs text-gold">
+                <p className="mb-3 text-center text-xs text-gold">
                   {t(`${member.id}_role`)}
                 </p>
-                <p className="text-center text-xs leading-relaxed text-gray-700">
-                  {t(`${member.id}_desc`)}
-                </p>
+                <ul className="space-y-1 text-left text-xs leading-relaxed text-gray-700">
+                  {t(`${member.id}_desc`).split("\n").map((line: string) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
