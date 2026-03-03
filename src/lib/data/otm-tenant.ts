@@ -1,0 +1,52 @@
+import { TenantConfig } from "@/lib/types";
+
+export const otmTenant: TenantConfig = {
+  slug: "otm",
+  name: "OTM",
+  fullName: "Operaciones Topográficas y Mensuras",
+  ownerName: "Daniel Omar Martínez Soler",
+  codia: "CODIA 34525",
+  rnc: "Pendiente",
+  phone: "+18292829999",
+  phoneLandline: "8095546775",
+  whatsapp: "18292829999",
+  email: "agrimdmartinez@gmail.com",
+  address: "C/Antonio Valdez Hijo, casi esq. Beller, Higüey, R.D.",
+  coordinates: { lat: 18.6152, lng: -68.7078 },
+  website: "https://otm.deslinde.do",
+  social: {
+    facebook: "https://facebook.com/OTMteam",
+    instagram: "https://instagram.com/domarsoler",
+    whatsapp: "https://wa.me/18292829999",
+  },
+  credentials: ["codia", "abogado", "master", "tasador"],
+  services: [
+    { id: "deslinde", iconKey: "deslinde" },
+    { id: "subdivision", iconKey: "subdivision" },
+    { id: "refundicion", iconKey: "refundicion" },
+    { id: "condominio", iconKey: "condominio" },
+    { id: "saneamiento", iconKey: "saneamiento" },
+    { id: "actualizacion", iconKey: "actualizacion" },
+    { id: "levantamiento", iconKey: "levantamiento" },
+  ],
+  portfolio: [
+    { id: "item1" },
+    { id: "item2" },
+    { id: "item3" },
+    { id: "item4" },
+    { id: "item5" },
+    { id: "item6" },
+  ],
+  testimonials: [
+    { id: "item1" },
+    { id: "item2" },
+    { id: "item3" },
+  ],
+  team: [
+    { id: "team1", isPrimary: true },
+    { id: "team2" },
+    { id: "team3" },
+    { id: "team4" },
+  ],
+  areas: ["higuey", "bavaro", "puntaCana", "veron", "bayahibe", "laRomana"],
+};
