@@ -154,12 +154,21 @@ export function Nav({ locale }: { locale: string }) {
           </div>
         </div>
 
-        {/* Mobile hamburger */}
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="flex items-center justify-center w-10 h-10 text-navy md:hidden"
-          aria-label={menuOpen ? t("close") : t("menu")}
-        >
+        {/* Mobile: lang + hamburger */}
+        <div className="flex items-center gap-1 md:hidden">
+          <button
+            onClick={() => switchLocale(
+              LOCALES[(LOCALES.findIndex((l) => l.code === locale) + 1) % LOCALES.length].code
+            )}
+            className="flex items-center justify-center rounded border border-navy/15 px-2 py-1 text-xs font-medium text-navy/70"
+          >
+            {locale.toUpperCase()}
+          </button>
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="flex items-center justify-center w-10 h-10 text-navy"
+            aria-label={menuOpen ? t("close") : t("menu")}
+          >
           {menuOpen ? (
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -169,7 +178,8 @@ export function Nav({ locale }: { locale: string }) {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           )}
-        </button>
+          </button>
+        </div>
       </div>
 
       {/* Mobile overlay */}
