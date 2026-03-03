@@ -18,10 +18,10 @@ const NAV_LINKS = [
 ] as const;
 
 const LOCALES = [
-  { code: "es", label: "ES" },
-  { code: "en", label: "EN" },
-  { code: "fr", label: "FR" },
-  { code: "it", label: "IT" },
+  { code: "es", label: "ES", name: "Español" },
+  { code: "en", label: "EN", name: "English" },
+  { code: "fr", label: "FR", name: "Français" },
+  { code: "it", label: "IT", name: "Italiano" },
 ] as const;
 
 export function Nav({ locale }: { locale: string }) {
@@ -156,14 +156,34 @@ export function Nav({ locale }: { locale: string }) {
 
         {/* Mobile: lang + hamburger */}
         <div className="flex items-center gap-1 md:hidden">
-          <button
-            onClick={() => switchLocale(
-              LOCALES[(LOCALES.findIndex((l) => l.code === locale) + 1) % LOCALES.length].code
+          <div className="relative">
+            <button
+              onClick={() => setLangOpen(!langOpen)}
+              className="flex items-center gap-1 rounded border border-navy/15 px-2 py-1 text-xs font-medium text-navy/70"
+            >
+              {locale.toUpperCase()}
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {langOpen && (
+              <div className="absolute right-0 top-full mt-1 rounded border border-navy/10 bg-white py-1 shadow-lg min-w-[130px]">
+                {LOCALES.map(({ code, name }) => (
+                  <button
+                    key={code}
+                    onClick={() => switchLocale(code)}
+                    className={`block w-full px-4 py-2 text-left text-sm ${
+                      locale === code
+                        ? "text-gold"
+                        : "text-navy/70 hover:text-gold hover:bg-navy/[0.03]"
+                    }`}
+                  >
+                    {name}
+                  </button>
+                ))}
+              </div>
             )}
-            className="flex items-center justify-center rounded border border-navy/15 px-2 py-1 text-xs font-medium text-navy/70"
-          >
-            {locale.toUpperCase()}
-          </button>
+          </div>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="flex items-center justify-center w-10 h-10 text-navy"
