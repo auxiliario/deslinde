@@ -1,5 +1,11 @@
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { TenantConfig } from "@/lib/types";
+
+const PARTNER_PHOTOS: Record<string, string> = {
+  team1: "/images/team/daniel.jpg",
+  team2: "/images/team/anderson.jpg",
+};
 
 export async function About({ tenant }: { tenant: TenantConfig }) {
   const t = await getTranslations("About");
@@ -38,13 +44,23 @@ export async function About({ tenant }: { tenant: TenantConfig }) {
                 key={member.id}
                 className="flex w-full max-w-[260px] flex-col items-center rounded-lg bg-white p-6 shadow-sm"
               >
-                <div className="mb-4 flex h-[72px] w-[72px] items-center justify-center rounded-full ring-2 ring-gold bg-navy text-white font-heading font-bold text-lg">
-                  {t(`${member.id}_name`)
-                    .split(" ")
-                    .map((n: string) => n[0])
-                    .slice(0, 2)
-                    .join("")}
-                </div>
+                {PARTNER_PHOTOS[member.id] ? (
+                  <Image
+                    src={PARTNER_PHOTOS[member.id]}
+                    alt={t(`${member.id}_name`)}
+                    width={72}
+                    height={72}
+                    className="mb-4 h-[72px] w-[72px] rounded-full object-cover ring-2 ring-gold"
+                  />
+                ) : (
+                  <div className="mb-4 flex h-[72px] w-[72px] items-center justify-center rounded-full ring-2 ring-gold bg-navy text-white font-heading font-bold text-lg">
+                    {t(`${member.id}_name`)
+                      .split(" ")
+                      .map((n: string) => n[0])
+                      .slice(0, 2)
+                      .join("")}
+                  </div>
+                )}
                 <h4 className="mb-1 text-center font-heading text-sm font-bold text-navy">
                   {t(`${member.id}_name`)}
                 </h4>
