@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "Geometra Daniel Omar Martínez Soler | OTM Deslinde",
+    "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
     "description": "Operaciones Topográficas y Mensuras — Servizi professionali di agrimensura a Higüey, Bávaro, Punta Cana e nell'Est della Repubblica Dominicana. CODIA 34525.",
-    "ogTitle": "Geometra Daniel Omar Martínez Soler | OTM",
+    "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
     "ogDescription": "Servizi di agrimensura, delimitazione, suddivisione e catasto nell'Est della Repubblica Dominicana."
   },
   "Nav": {
@@ -17,9 +17,9 @@
     "close": "Chiudi"
   },
   "Hero": {
-    "firmName": "Operaciones Topográficas y Mensuras",
-    "name": "Daniel Omar Martínez Soler",
-    "role": "Geometra · Avvocato · Perito estimatore",
+    "name": "Operaciones Topográficas y Mensuras",
+    "partners": "Agrim./Licdo. Daniel Omar Martínez Soler & Agrim./Licdo. Anderson Joan Japa Mota",
+    "role": "Geometra · Avvocato · Perito estimatore · Consulenti Immobiliari",
     "badge_codia": "CODIA 34525",
     "badge_abogado": "Avvocato",
     "badge_master": "Master Dir. Immobiliare",
@@ -47,7 +47,7 @@
   "WhyChoose": {
     "heading": "Perché scegliere OTM?",
     "p1": "Con oltre un decennio di esperienza nell'Est della Repubblica Dominicana, conosco ogni angolo di questa regione — dalle parcelle fronte mare a Bávaro alle tenute rurali di Higüey. Questa profonda familiarità con il terreno e i registri catastali locali si traduce in processi più rapidi e risultati più precisi per te.",
-    "p2": "La mia tripla qualifica di geometra, avvocato e perito estimatore mi permette di vedere il tuo progetto da ogni angolazione. Non mi limito a misurare il tuo terreno — comprendo le implicazioni legali di ogni confine, posso rappresentarti davanti al Tribunale Fondiario e so esattamente come ogni decisione tecnica impatta il valore della tua proprietà.",
+    "p2": "La nostra formazione come geometri, avvocati, periti estimatori e consulenti immobiliari ci permette di vedere il tuo progetto da ogni angolazione. Non ci limitiamo a misurare il tuo terreno — comprendiamo le implicazioni legali di ogni confine, possiamo rappresentarti davanti al Tribunale Fondiario e sappiamo esattamente come ogni decisione tecnica impatta il valore della tua proprietà.",
     "p3": "Ogni terreno racconta una storia. Il mio impegno è decifrarla con precisione, proteggerla con supporto legale, e offrirti la tranquillità di sapere che la tua proprietà è nelle migliori mani."
   },
   "Portfolio": {
@@ -104,17 +104,20 @@
     "p2": "Oggi, il nostro team serve proprietari, sviluppatori e investitori in tutto l'Est del paese. Ogni progetto che accettiamo riceve la stessa dedizione — perché dietro ogni parcella c'è una famiglia, un sogno o un'impresa che merita la massima sicurezza sulla propria proprietà.",
     "teamHeading": "Il Nostro Team",
     "team1_name": "Daniel Omar Martínez Soler",
-    "team1_role": "Direttore · Geometra · Avvocato",
+    "team1_role": "Direttore · Geometra · Avvocato · Consulente Immobiliare",
     "team1_desc": "CODIA 34525. Oltre 10 anni di esperienza in agrimensura e diritto immobiliare nell'Est della RD.",
-    "team2_name": "Ángel de Jesús",
-    "team2_role": "Assistente di Campo",
-    "team2_desc": "Supporto tecnico nei rilievi topografici e lavoro sul campo.",
-    "team3_name": "Starlin Martínez",
+    "team2_name": "Anderson Joan Japa Mota",
+    "team2_role": "Socio · Geometra · Avvocato · Consulente Immobiliare",
+    "team2_desc": "Geometra/Avvocato. Master in Diritto Immobiliare e Registrale. Perito estimatore, avvocato, geometra e consulente immobiliare.",
+    "team3_name": "Ángel de Jesús",
     "team3_role": "Assistente di Campo",
-    "team3_desc": "Specialista in misurazioni di precisione e documentazione tecnica.",
-    "team4_name": "Ana García",
-    "team4_role": "Coordinatrice Amministrativa",
-    "team4_desc": "Gestione pratiche, coordinamento con i tribunali e relazioni con i clienti."
+    "team3_desc": "Supporto tecnico nei rilievi topografici e lavoro sul campo.",
+    "team4_name": "Starlin Martínez",
+    "team4_role": "Assistente di Campo",
+    "team4_desc": "Specialista in misurazioni di precisione e documentazione tecnica.",
+    "team5_name": "Ana García",
+    "team5_role": "Coordinatrice Amministrativa",
+    "team5_desc": "Gestione pratiche, coordinamento con i tribunali e relazioni con i clienti."
   },
   "Footer": {
     "contactHeading": "Contatto",

@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "Surveyor Daniel Omar Martínez Soler | OTM Deslinde",
+    "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
     "description": "Operaciones Topográficas y Mensuras — Professional land surveying services in Higüey, Bávaro, Punta Cana, and the East of the Dominican Republic. CODIA 34525.",
-    "ogTitle": "Surveyor Daniel Omar Martínez Soler | OTM",
+    "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
     "ogDescription": "Land surveying, demarcation, subdivision, and cadastral services in the Eastern Dominican Republic."
   },
   "Nav": {
@@ -17,9 +17,9 @@
     "close": "Close"
   },
   "Hero": {
-    "firmName": "Operaciones Topográficas y Mensuras",
-    "name": "Daniel Omar Martínez Soler",
-    "role": "Land Surveyor · Attorney · Appraiser",
+    "name": "Operaciones Topográficas y Mensuras",
+    "partners": "Agrim./Licdo. Daniel Omar Martínez Soler & Agrim./Licdo. Anderson Joan Japa Mota",
+    "role": "Land Surveyor · Attorney · Appraiser · Real Estate Advisors",
     "badge_codia": "CODIA 34525",
     "badge_abogado": "Attorney",
     "badge_master": "Master Real Estate Law",
@@ -47,7 +47,7 @@
   "WhyChoose": {
     "heading": "Why Choose OTM?",
     "p1": "With over a decade of experience in the East of the Dominican Republic, I know every corner of this region — from the beachfront parcels in Bávaro to the rural estates of Higüey. This deep familiarity with the terrain and local cadastral records translates into faster processes and more precise results for you.",
-    "p2": "My triple qualification as surveyor, attorney, and appraiser allows me to see your project from every angle. I don't just measure your land — I understand the legal implications of every boundary, can represent you before the Land Court, and know exactly how every technical decision impacts your property's value.",
+    "p2": "Our background as surveyors, attorneys, appraisers, and real estate advisors allows us to see your project from every angle. We don't just measure your land — we understand the legal implications of every boundary, can represent you before the Land Court, and know exactly how every technical decision impacts your property's value.",
     "p3": "Every piece of land tells a story. My commitment is to decipher it with precision, protect it with legal backing, and give you the peace of mind that your property is in the best hands."
   },
   "Portfolio": {
@@ -104,17 +104,20 @@
     "p2": "Today, our team serves property owners, developers, and investors across the entire East of the country. Every project we accept receives the same dedication — because behind every parcel is a family, a dream, or a business that deserves the utmost security over their property.",
     "teamHeading": "Our Team",
     "team1_name": "Daniel Omar Martínez Soler",
-    "team1_role": "Director · Surveyor · Attorney",
+    "team1_role": "Director · Surveyor · Attorney · Real Estate Advisor",
     "team1_desc": "CODIA 34525. Over 10 years of experience in land surveying and real estate law in Eastern DR.",
-    "team2_name": "Ángel de Jesús",
-    "team2_role": "Field Assistant",
-    "team2_desc": "Technical support in topographic surveys and fieldwork.",
-    "team3_name": "Starlin Martínez",
+    "team2_name": "Anderson Joan Japa Mota",
+    "team2_role": "Partner · Surveyor · Attorney · Real Estate Advisor",
+    "team2_desc": "Surveyor/Attorney. Master in Real Estate and Registry Law. Appraiser, attorney, surveyor, and real estate advisor.",
+    "team3_name": "Ángel de Jesús",
     "team3_role": "Field Assistant",
-    "team3_desc": "Specialist in precision measurements and technical documentation.",
-    "team4_name": "Ana García",
-    "team4_role": "Administrative Coordinator",
-    "team4_desc": "File management, court coordination, and client relations."
+    "team3_desc": "Technical support in topographic surveys and fieldwork.",
+    "team4_name": "Starlin Martínez",
+    "team4_role": "Field Assistant",
+    "team4_desc": "Specialist in precision measurements and technical documentation.",
+    "team5_name": "Ana García",
+    "team5_role": "Administrative Coordinator",
+    "team5_desc": "File management, court coordination, and client relations."
   },
   "Footer": {
     "contactHeading": "Contact",

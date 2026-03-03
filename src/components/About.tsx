@@ -31,20 +31,41 @@ export async function About({ tenant }: { tenant: TenantConfig }) {
             {t("teamHeading")}
           </h3>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {tenant.team.map((member) => (
+          {/* Partners row */}
+          <div className="flex flex-wrap justify-center gap-6 mb-6">
+            {tenant.team.filter((m) => m.isPrimary).map((member) => (
+              <div
+                key={member.id}
+                className="flex w-full max-w-[260px] flex-col items-center rounded-lg bg-white p-6 shadow-sm"
+              >
+                <div className="mb-4 flex h-[72px] w-[72px] items-center justify-center rounded-full ring-2 ring-gold bg-navy text-white font-heading font-bold text-lg">
+                  {t(`${member.id}_name`)
+                    .split(" ")
+                    .map((n: string) => n[0])
+                    .slice(0, 2)
+                    .join("")}
+                </div>
+                <h4 className="mb-1 text-center font-heading text-sm font-bold text-navy">
+                  {t(`${member.id}_name`)}
+                </h4>
+                <p className="mb-2 text-center text-xs text-gold">
+                  {t(`${member.id}_role`)}
+                </p>
+                <p className="text-center text-xs leading-relaxed text-gray-700">
+                  {t(`${member.id}_desc`)}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Support team row */}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {tenant.team.filter((m) => !m.isPrimary).map((member) => (
               <div
                 key={member.id}
                 className="flex flex-col items-center rounded-lg bg-white p-6 shadow-sm"
               >
-                {/* Avatar */}
-                <div
-                  className={`mb-4 flex h-[72px] w-[72px] items-center justify-center rounded-full text-white font-heading font-bold text-lg ${
-                    member.isPrimary
-                      ? "ring-2 ring-gold bg-navy"
-                      : "bg-navy/80"
-                  }`}
-                >
+                <div className="mb-4 flex h-[72px] w-[72px] items-center justify-center rounded-full bg-navy/80 text-white font-heading font-bold text-lg">
                   {t(`${member.id}_name`)
                     .split(" ")
                     .map((n: string) => n[0])

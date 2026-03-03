@@ -44,9 +44,10 @@ export const otmTenant: TenantConfig = {
   ],
   team: [
     { id: "team1", isPrimary: true },
-    { id: "team2" },
+    { id: "team2", isPrimary: true },
     { id: "team3" },
     { id: "team4" },
+    { id: "team5" },
   ],
   areas: ["higuey", "bavaro", "puntaCana", "veron", "bayahibe", "laRomana"],
 };

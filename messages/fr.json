@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "Géomètre Daniel Omar Martínez Soler | OTM Deslinde",
+    "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
     "description": "Operaciones Topográficas y Mensuras — Services professionnels d'arpentage à Higüey, Bávaro, Punta Cana et l'Est de la République Dominicaine. CODIA 34525.",
-    "ogTitle": "Géomètre Daniel Omar Martínez Soler | OTM",
+    "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
     "ogDescription": "Services d'arpentage, bornage, lotissement et cadastre dans l'Est de la République Dominicaine."
   },
   "Nav": {
@@ -17,9 +17,9 @@
     "close": "Fermer"
   },
   "Hero": {
-    "firmName": "Operaciones Topográficas y Mensuras",
-    "name": "Daniel Omar Martínez Soler",
-    "role": "Géomètre · Avocat · Expert immobilier",
+    "name": "Operaciones Topográficas y Mensuras",
+    "partners": "Agrim./Licdo. Daniel Omar Martínez Soler & Agrim./Licdo. Anderson Joan Japa Mota",
+    "role": "Géomètre · Avocat · Expert immobilier · Conseillers Immobiliers",
     "badge_codia": "CODIA 34525",
     "badge_abogado": "Avocat",
     "badge_master": "Master Droit Immobilier",
@@ -47,7 +47,7 @@
   "WhyChoose": {
     "heading": "Pourquoi choisir OTM ?",
     "p1": "Avec plus d'une décennie d'expérience dans l'Est de la République Dominicaine, je connais chaque recoin de cette région — des parcelles en bord de mer à Bávaro aux domaines ruraux de Higüey. Cette connaissance approfondie du terrain et des registres cadastraux locaux se traduit par des processus plus rapides et des résultats plus précis pour vous.",
-    "p2": "Ma triple qualification de géomètre, avocat et expert immobilier me permet de voir votre projet sous tous les angles. Je ne me contente pas de mesurer votre terrain — je comprends les implications légales de chaque limite, peux vous représenter devant le Tribunal Foncier, et sais exactement comment chaque décision technique impacte la valeur de votre propriété.",
+    "p2": "Notre formation de géomètres, avocats, experts immobiliers et conseillers immobiliers nous permet de voir votre projet sous tous les angles. Nous ne nous contentons pas de mesurer votre terrain — nous comprenons les implications légales de chaque limite, pouvons vous représenter devant le Tribunal Foncier, et savons exactement comment chaque décision technique impacte la valeur de votre propriété.",
     "p3": "Chaque terrain raconte une histoire. Mon engagement est de la déchiffrer avec précision, de la protéger avec un soutien juridique, et de vous offrir la tranquillité d'esprit que votre propriété est entre les meilleures mains."
   },
   "Portfolio": {
@@ -104,17 +104,20 @@
     "p2": "Aujourd'hui, notre équipe sert des propriétaires, promoteurs et investisseurs dans tout l'Est du pays. Chaque projet que nous acceptons reçoit le même dévouement — car derrière chaque parcelle se trouve une famille, un rêve ou une entreprise qui mérite la plus grande sécurité sur sa propriété.",
     "teamHeading": "Notre Équipe",
     "team1_name": "Daniel Omar Martínez Soler",
-    "team1_role": "Directeur · Géomètre · Avocat",
+    "team1_role": "Directeur · Géomètre · Avocat · Conseiller Immobilier",
     "team1_desc": "CODIA 34525. Plus de 10 ans d'expérience en arpentage et droit immobilier dans l'Est de la RD.",
-    "team2_name": "Ángel de Jesús",
-    "team2_role": "Assistant de Terrain",
-    "team2_desc": "Support technique dans les levés topographiques et le travail de terrain.",
-    "team3_name": "Starlin Martínez",
+    "team2_name": "Anderson Joan Japa Mota",
+    "team2_role": "Associé · Géomètre · Avocat · Conseiller Immobilier",
+    "team2_desc": "Géomètre/Avocat. Master en Droit Immobilier et Registral. Expert immobilier, avocat, géomètre et conseiller immobilier.",
+    "team3_name": "Ángel de Jesús",
     "team3_role": "Assistant de Terrain",
-    "team3_desc": "Spécialiste en mesures de précision et documentation technique.",
-    "team4_name": "Ana García",
-    "team4_role": "Coordinatrice Administrative",
-    "team4_desc": "Gestion des dossiers, coordination avec les tribunaux et relations clients."
+    "team3_desc": "Support technique dans les levés topographiques et le travail de terrain.",
+    "team4_name": "Starlin Martínez",
+    "team4_role": "Assistant de Terrain",
+    "team4_desc": "Spécialiste en mesures de précision et documentation technique.",
+    "team5_name": "Ana García",
+    "team5_role": "Coordinatrice Administrative",
+    "team5_desc": "Gestion des dossiers, coordination avec les tribunaux et relations clients."
   },
   "Footer": {
     "contactHeading": "Contact",

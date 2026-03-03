@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "Agrimensor Daniel Omar Martínez Soler | OTM Deslinde",
+    "title": "Operaciones Topográficas y Mensuras | OTM Deslinde",
     "description": "Operaciones Topográficas y Mensuras — Servicios de agrimensura profesional en Higüey, Bávaro, Punta Cana y todo el Este de República Dominicana. CODIA 34525.",
-    "ogTitle": "Agrimensor Daniel Omar Martínez Soler | OTM",
+    "ogTitle": "Operaciones Topográficas y Mensuras | OTM",
     "ogDescription": "Servicios de agrimensura, deslinde, subdivisión y saneamiento catastral en el Este de República Dominicana."
   },
   "Nav": {
@@ -17,9 +17,9 @@
     "close": "Cerrar"
   },
   "Hero": {
-    "firmName": "Operaciones Topográficas y Mensuras",
-    "name": "Daniel Omar Martínez Soler",
-    "role": "Agrimensor · Abogado · Tasador",
+    "name": "Operaciones Topográficas y Mensuras",
+    "partners": "Agrim./Licdo. Daniel Omar Martínez Soler & Agrim./Licdo. Anderson Joan Japa Mota",
+    "role": "Agrimensor · Abogado · Tasador · Asesores Inmobiliarios",
     "badge_codia": "CODIA 34525",
     "badge_abogado": "Abogado",
     "badge_master": "Master Der. Inmobiliario",
@@ -47,7 +47,7 @@
   "WhyChoose": {
     "heading": "¿Por qué elegir a OTM?",
     "p1": "Con más de una década de experiencia en el Este de República Dominicana, conozco cada rincón de esta zona — desde las parcelas frente al mar en Bávaro hasta las fincas rurales de Higüey. Esta familiaridad profunda con el terreno y con los registros catastrales locales se traduce en procesos más rápidos y resultados más precisos para ti.",
-    "p2": "Mi formación triple como agrimensor, abogado y tasador me permite ver tu proyecto desde todos los ángulos. No solo mido tu terreno — entiendo las implicaciones legales de cada colindancia, puedo representarte ante el Tribunal de Tierras, y sé exactamente cómo cada decisión técnica impacta el valor de tu propiedad.",
+    "p2": "Nuestra formación como agrimensores, abogados, tasadores y asesores inmobiliarios nos permite ver tu proyecto desde todos los ángulos. No solo medimos tu terreno — entendemos las implicaciones legales de cada colindancia, podemos representarte ante el Tribunal de Tierras, y sabemos exactamente cómo cada decisión técnica impacta el valor de tu propiedad.",
     "p3": "Cada terreno cuenta una historia. Mi compromiso es descifrarla con precisión, protegerla con respaldo legal, y entregarte la tranquilidad de saber que tu propiedad está en las mejores manos."
   },
   "Portfolio": {
@@ -104,17 +104,20 @@
     "p2": "Hoy, nuestro equipo atiende a propietarios, desarrolladores e inversores en todo el Este del país. Cada proyecto que aceptamos recibe la misma dedicación — porque detrás de cada parcela hay una familia, un sueño o un negocio que merece la máxima seguridad sobre su propiedad.",
     "teamHeading": "Nuestro Equipo",
     "team1_name": "Daniel Omar Martínez Soler",
-    "team1_role": "Director · Agrimensor · Abogado",
+    "team1_role": "Director · Agrimensor · Abogado · Asesor Inmobiliario",
     "team1_desc": "CODIA 34525. Más de 10 años de experiencia en agrimensura y derecho inmobiliario en el Este de RD.",
-    "team2_name": "Ángel de Jesús",
-    "team2_role": "Asistente de Campo",
-    "team2_desc": "Apoyo técnico en levantamientos topográficos y trabajo de campo.",
-    "team3_name": "Starlin Martínez",
+    "team2_name": "Anderson Joan Japa Mota",
+    "team2_role": "Socio · Agrimensor · Abogado · Asesor Inmobiliario",
+    "team2_desc": "Agrim./Licdo. Máster en Derecho Inmobiliario y Registral. Tasador, abogado, agrimensor y asesor inmobiliario.",
+    "team3_name": "Ángel de Jesús",
     "team3_role": "Asistente de Campo",
-    "team3_desc": "Especialista en mediciones de precisión y documentación técnica.",
-    "team4_name": "Ana García",
-    "team4_role": "Coordinadora Administrativa",
-    "team4_desc": "Gestión de expedientes, coordinación con tribunales y atención al cliente."
+    "team3_desc": "Apoyo técnico en levantamientos topográficos y trabajo de campo.",
+    "team4_name": "Starlin Martínez",
+    "team4_role": "Asistente de Campo",
+    "team4_desc": "Especialista en mediciones de precisión y documentación técnica.",
+    "team5_name": "Ana García",
+    "team5_role": "Coordinadora Administrativa",
+    "team5_desc": "Gestión de expedientes, coordinación con tribunales y atención al cliente."
   },
   "Footer": {
     "contactHeading": "Contacto",

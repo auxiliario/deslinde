@@ -153,9 +153,10 @@ BEGIN
   -- Team members
   INSERT INTO team_members (agrimensor_id, id, is_primary, sort_order) VALUES
     (otm_id, 'team1', true, 1),
-    (otm_id, 'team2', false, 2),
+    (otm_id, 'team2', true, 2),
     (otm_id, 'team3', false, 3),
-    (otm_id, 'team4', false, 4);
+    (otm_id, 'team4', false, 4),
+    (otm_id, 'team5', false, 5);
 
   -- Portfolio items
   INSERT INTO portfolio_items (agrimensor_id, id, sort_order) VALUES

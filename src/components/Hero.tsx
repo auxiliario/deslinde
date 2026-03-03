@@ -38,15 +38,15 @@ export async function Hero({ tenant }: { tenant: TenantConfig }) {
       {/* Content */}
       <div className="relative flex flex-col items-center px-4 py-20 text-center md:py-28">
         <div className="max-w-[660px]">
-          {/* Firm name */}
-          <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.25em] text-gold">
-            {t("firmName")}
-          </p>
-
           {/* Name */}
           <h1 className="mb-3 font-heading text-2xl font-bold text-white md:text-3xl">
             {t("name")}
           </h1>
+
+          {/* Partners */}
+          <p className="mb-4 text-sm font-medium text-gold">
+            {t("partners")}
+          </p>
 
           {/* Role */}
           <p className="mb-8 text-sm text-white/55">{t("role")}</p>

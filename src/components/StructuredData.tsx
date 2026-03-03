@@ -27,7 +27,7 @@ export function StructuredData({ tenant }: { tenant: TenantConfig }) {
     founder: {
       "@type": "Person",
       name: tenant.ownerName,
-      jobTitle: "Agrimensor, Abogado, Tasador",
+      jobTitle: "Agrimensor, Abogado, Tasador, Asesor Inmobiliario",
       credential: tenant.codia,
     },
     hasCredential: {

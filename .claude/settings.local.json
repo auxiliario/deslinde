@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:next-intl.dev)",
+      "WebFetch(domain:www.beflagrant.com)",
+      "WebFetch(domain:www.buildwithmatija.com)",
+      "Bash(npm run:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
