@@ -76,10 +76,9 @@ export function Nav({ locale }: { locale: string }) {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-md transition-shadow duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 bg-white transition-shadow duration-300 ${
         scrolled ? "shadow-sm" : ""
       }`}
-      style={{ backgroundColor: "#ffffff" }}
     >
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 md:h-[60px]">
         {/* Logo */}
