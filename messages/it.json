@@ -42,7 +42,9 @@
     "actualizacion_title": "Aggiornamento del Registro",
     "actualizacion_desc": "Modernizzazione dei vecchi titoli emessi sotto il sistema di Decreto di Registrazione al sistema attuale di Certificato di Titolo. Questo processo aggiorna la documentazione al quadro legale vigente (Legge 108-05).",
     "levantamiento_title": "Rilievo Topografico",
-    "levantamiento_desc": "Misurazione tecnica di precisione del tuo terreno utilizzando attrezzature di ultima generazione (stazione totale, GPS differenziale). Generiamo planimetrie dettagliate con coordinate UTM, curve di livello e riferimenti catastali."
+    "levantamiento_desc": "Misurazione tecnica di precisione del tuo terreno utilizzando attrezzature di ultima generazione (stazione totale, GPS differenziale). Generiamo planimetrie dettagliate con coordinate UTM, curve di livello e riferimenti catastali.",
+    "regularizacion_title": "Regolarizzazione Parcellare",
+    "regularizacion_desc": "Processo amministrativo che consente di individualizzare formalmente un terreno o una porzione di terreno all'interno di una proprietà più grande iscritta nel Registro Immobiliare dominicano. Si applica quando il terreno è fisicamente occupato senza controversia tra titolari o possessori, l'occupazione è pacifica e i confini sono chiaramente definiti nella pratica."
   },
   "WhyChoose": {
     "heading": "Perché scegliere OTM?",
@@ -94,7 +96,6 @@
     "santoDomingo": "Santo Domingo",
     "puntaCana": "Punta Cana",
     "bavaro": "Bávaro",
-    "capCana": "Cap Cana",
     "santiago": "Santiago",
     "laRomana": "La Romana",
     "samana": "Samaná",

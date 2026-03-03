@@ -28,6 +28,7 @@ export const otmTenant: TenantConfig = {
     { id: "saneamiento", iconKey: "saneamiento" },
     { id: "actualizacion", iconKey: "actualizacion" },
     { id: "levantamiento", iconKey: "levantamiento" },
+    { id: "regularizacion", iconKey: "regularizacion" },
   ],
   portfolio: [
     { id: "item1" },
@@ -49,5 +50,5 @@ export const otmTenant: TenantConfig = {
     { id: "team4" },
     { id: "team5" },
   ],
-  areas: ["santoDomingo", "puntaCana", "bavaro", "capCana", "santiago", "laRomana", "samana", "puertoplata", "higuey", "jarabacoa", "lasTerrenas", "cabarete"],
+  areas: ["santoDomingo", "puntaCana", "bavaro", "santiago", "laRomana", "samana", "puertoplata", "higuey", "jarabacoa", "lasTerrenas", "cabarete"],
 };

@@ -130,7 +130,7 @@ INSERT INTO agrimensores (
   'https://www.instagram.com/agrim.danielmartinez/',
   'https://wa.me/18292829999',
   ARRAY['codia', 'abogado', 'master', 'tasador'],
-  ARRAY['santoDomingo', 'puntaCana', 'bavaro', 'capCana', 'santiago', 'laRomana', 'samana', 'puertoplata', 'higuey', 'jarabacoa', 'lasTerrenas', 'cabarete']
+  ARRAY['santoDomingo', 'puntaCana', 'bavaro', 'santiago', 'laRomana', 'samana', 'puertoplata', 'higuey', 'jarabacoa', 'lasTerrenas', 'cabarete']
 );
 
 -- Get the agrimensor ID for FK references
@@ -148,7 +148,8 @@ BEGIN
     (otm_id, 'condominio', 'condominio', 4),
     (otm_id, 'saneamiento', 'saneamiento', 5),
     (otm_id, 'actualizacion', 'actualizacion', 6),
-    (otm_id, 'levantamiento', 'levantamiento', 7);
+    (otm_id, 'levantamiento', 'levantamiento', 7),
+    (otm_id, 'regularizacion', 'regularizacion', 8);
 
   -- Team members
   INSERT INTO team_members (agrimensor_id, id, is_primary, sort_order) VALUES

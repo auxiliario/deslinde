@@ -42,7 +42,9 @@
     "actualizacion_title": "Title Registry Update",
     "actualizacion_desc": "Modernization of old titles issued under the Registration Decree system to the current Certificate of Title system. This process updates your documentation to the current legal framework (Law 108-05), protecting your investment with maximum legal security.",
     "levantamiento_title": "Topographic Survey",
-    "levantamiento_desc": "Precision technical measurement of your land using state-of-the-art equipment (total station, differential GPS). We generate detailed plans with UTM coordinates, contour lines, and cadastral references — essential information for any construction project or legal procedure."
+    "levantamiento_desc": "Precision technical measurement of your land using state-of-the-art equipment (total station, differential GPS). We generate detailed plans with UTM coordinates, contour lines, and cadastral references — essential information for any construction project or legal procedure.",
+    "regularizacion_title": "Parcel Regularization",
+    "regularizacion_desc": "Administrative process to formally individualize a plot or portion of land within a larger property registered in the Dominican Real Estate Registry. Applicable when the land is physically occupied without dispute between titleholders or possessors, the occupation is peaceful, and the boundaries are clearly defined in practice."
   },
   "WhyChoose": {
     "heading": "Why Choose OTM?",
@@ -94,7 +96,6 @@
     "santoDomingo": "Santo Domingo",
     "puntaCana": "Punta Cana",
     "bavaro": "Bávaro",
-    "capCana": "Cap Cana",
     "santiago": "Santiago",
     "laRomana": "La Romana",
     "samana": "Samaná",
