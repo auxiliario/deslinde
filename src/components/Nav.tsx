@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { useTenant } from "@/context/TenantContext";
+import { Facebook, Instagram } from "@/components/icons";
 
 const NAV_LINKS = [
   { href: "#servicios", key: "services" },
@@ -174,7 +175,7 @@ export function Nav({ locale }: { locale: string }) {
 
       {/* Mobile overlay */}
       {menuOpen && (
-        <div className="fixed inset-0 top-14 bg-white/98 backdrop-blur-sm md:hidden z-50">
+        <div className="fixed inset-0 top-14 md:hidden z-50" style={{ backgroundColor: "#ffffff" }}>
           <div className="flex flex-col items-center gap-6 pt-12">
             {NAV_LINKS.map(({ href, key }) => (
               <a
@@ -204,6 +205,26 @@ export function Nav({ locale }: { locale: string }) {
                   {label}
                 </button>
               ))}
+            </div>
+            <div className="flex gap-5 pt-4 border-t border-navy/10 mt-2">
+              <a
+                href={tenant.social.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-navy/40 hover:text-navy"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a
+                href={tenant.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-navy/40 hover:text-navy"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>
